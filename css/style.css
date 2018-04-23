@@ -1,0 +1,170 @@
+/* Global */
+body {
+  background-color: #eee;
+  color: #333;
+  font-family: Verdana, Arial;
+  margin: 0;
+  font-size: 18px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+.central_column {
+  width: 60%;
+  margin: auto;
+  overflow:hidden;
+}
+
+/* Main */
+#main {
+  height: 700px;
+  background:url('../images/backgroundImage.png') no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  border-bottom: 8px solid #bbb;
+}
+#main .container{
+  width:100%;
+}
+#main h1 {
+  font-size: 70px;
+  margin-top: 350px;
+  margin-bottom: 10px;
+}
+
+#main p {
+  font-weight: thin;
+  margin: 0;
+  font-size: 22px;
+}
+
+#main #logo{
+  float:left;
+  width: 200px;
+}
+
+/* Menu */
+#menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  border-bottom: 2px solid #bbb;
+  background-color: white;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button a {
+  text-decoration: none;
+  transition: 0.5s;
+  width:100%;
+  color: #333;
+  padding: 40px 0 40px 0;
+}
+.button :hover{
+  background-color: #ccc;
+  color: white;
+}
+.button #current{
+  background-color: #ccc;
+}
+
+/*about*/
+#about{
+  margin:10px auto;
+  display:grid;
+  grid-template-columns:60% 40%;
+  background-color:white;
+  text-align: justify;
+}
+#about #desc{
+  display: flex;
+  align-items: center;
+}
+#about #image img{
+  display:block;
+  margin: 0 auto;
+  padding: 5px;
+  height:350px;
+}
+
+/*teams*/
+#teams{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:10px;
+}
+#teams .team{
+  background-color:white;
+  width:100%;
+  text-align: center;
+}
+#teams .team img{
+  display:block;
+  margin: 0 auto;
+}
+#teams .team p{
+  text-transform: uppercase;
+  font-size: 20px;
+  margin:0;
+  padding: 0 0 20px 0;
+}
+
+/*Download*/
+.download .central_column{
+  background-color:white;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 40px;
+}
+.download img{
+  display:block;
+  max-width: 100%;
+  margin: auto;
+}
+.download p{
+  margin: 0;
+  padding: 30px 0 30px 0;
+}
+.download .button{
+  width: 50%;
+  margin: 0 auto 40px auto;
+  border: solid 2px #ccc;
+}
+
+/*Guide*/
+.guide .central_column {
+  background-color: white;
+  margin-top: 10px;
+  text-align: justify;
+}
+.guide .title {
+  padding: 10px;
+  margin: 0;
+}
+.guide .single_content {
+  padding: 10px;
+  margin: 0;
+}
+.guide .single_content img {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.guide .split_content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.guide .split_content .single_content{
+  margin: auto;
+}
