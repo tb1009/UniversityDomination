@@ -84,7 +84,30 @@ When starting a new game you will be asked to select how many human players (bet
       </div>
     </div>
   </section>
-  
+  <section class="guide">
+    <div class="central_column">
+      <div class="single_content">
+        <p>Punishment Cards</p>
+        <p>There are four types of card: Fresher's Flu, Killer Hangover, Nothing and Strike, each of which have a unique effect and for more information see the "Punishment Card" section below.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="guide">
+    <div class="central_column">
+      <div class="split_content">
+        <div class="split_content">
+          <div class="single_content"><img src="./images/FreshersFlu.png"></div>
+          <div class="single_content"><img src="./images/KillerHangover.png"></div>
+        </div>
+        <div class="split_content">
+          <div class="single_content"><img src="./images/Nothing.png"></div>
+          <div class="single_content"><img src="./images/Strike.png"></div>
+        </div>
+      </div>
+    </div>
+  </section>  
+
   <section class="guide">
     <div class="central_column">
       <h1 class="title">Playing the Game</h1>
@@ -93,6 +116,115 @@ When starting a new game you will be asked to select how many human players (bet
         <p>A player is considered eliminated when they have no units left AND they do not own any landmarks. The game ends when only one player is not eliminated, and that player is the winner.</p>
       </div>
     </div>
-  </section>  
+  </section>
+
+  <section class="guide">
+    <div class="central_column">
+      <h1 class="title">Taking Turns</h1>
+      <div class="single_content">
+        <p>At the start of a player's turn, new units are spawned at any landmarks the player owns, assuming that there is not a unit already on the landmark. During their turn, the player may make up to 2 move actions, moving one of their units into a sector adjacent to the sector it currently occupies.</p>
+        <p>To move a unit, first select the unit you wish to move by clicking on it, or on the sector it occupies. This will highlight the sectors adjacent to the one the selected unit occupies, indicating the possible sectors it can move into. Click on the sector you would like to move the selected unit into, and the move action will be resolved in one of three ways:</p>
+        <ol>
+          <li>If you move the unit into an unoccupied sector (i.e. one that does not already contain a unit), then the unit moves into that sector unimpeded. If the sector belonged to a different player prior to the move, the unit captures the sector, and the unit's level increases by 1 if it is not already at the maximum level (i.e. Level 5). </li>
+          <li>If you move the unit into an occupied sector (i.e. one that already contains a unit), and you own the unit occupying the sector, then the two units swap places.</li>
+          <li>If you move the unit into an occupied sector, and the unit occupying the sector is owned by a different player, then a conflict occurs. Conflicts are described in more detail in a later section.</li>
+        </ol>
+        <p>A player's turn ends either after a conflict is resolved, or after they make 2 move actions, whichever comes first. It is then the next player's turn.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="guide">
+    <div class="central_column">
+      <h1 class="title">Conflicts</h1>
+      <div class="single_content">
+        <p>A conflict occurs when a unit owned by one player (the attacking player) attempts to move into a sector occupied by a unit owned by another player (the defending player). The outcome of a conflict depends on two major factors: the respective levels of the units involved in the conflict and the amount of resources owned by the players involved in the conflict.</p>
+        <p>Higher-level units are generally stronger than lower-level units. The higher a unit's level is compared to its opponent, the better its chances are at winning the conflict.</p>
+        <p>The different types of resources, Beer and Knowledge, boost a player's chance to win a conflict depending on if the player is attacking or defending. Having more Beer increases a player's chance of winning if they are attacking, and having more Knowledge increases a player's chance of winning if they are defending.</p>
+        <p>Although unit levels and resource amounts can stack the odds in favour of one player, the outcome of the conflict is rarely certain - even a player at a severe disadvantage in a conflict can be victorious if luck is on their side.</p>
+        <p>Once a conflict is resolved, the losing unit is destroyed. If the attacking unit was the winner, then it moves into the sector previously occupied by the defending unit. If the defending unit was the winner, it remains in its sector.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="guide">
+    <div class="central_column">
+      <h1 class="title">The Mini-Game</h1>
+      <div class="single_content">
+        <p>The mini-game begins by a player clicking on the Vice Chancellor icon is clicked, whilst the also control the sector that the icon is inside. The mini game is called "Vice-Chancellor Dress up".</p>
+        <p>To beat the mini-game, you must choose the right set of clothes for him to wear. You get 3 chances to guess. Upon beating the mini-game, you will receive a bonus!</p>
+      </div>
+    </div>
+  </section>
+  <section class="guide">
+    <div class="central_column">
+      <div class="single_content">
+        <img src="./images/minigame.png">
+      </div>
+    </div>
+  </section>
+  
+  <section class="guide">
+    <div class="central_column">
+      <h1 class="title">Saving and Loading</h1>
+      <div class="single_content">
+        <p>During the game at any point there is an "options" button in the top-right of the screen which allows you to save your game to continue playing later on.</p>
+        <p>Once you have a save file from the main menu you can go into options and then choose to load your previously saved game instead of starting a new game.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="guide">
+    <div class="central_column">
+      <h1 class="title">Punishment Cards</h1>
+    </div>
+  </section>
+  <section class="guide">
+    <div class="central_column">
+      <div class="single_content">
+        <p>Getting Cards</p>
+        <p>At the start of your turn, a random punishment card is given to you. These cards are placed in your card deck, which can be viewed by clicking the "Punishment Cards" button at the beginning of your turn.</p>
+      </div>
+    </div>
+  </section>
+  <section class="guide">
+    <div class="central_column">
+      <div class="single_content">
+        <img src="./images/CardDeck.png">
+      </div>
+    </div>
+  </section>
+  <section class="guide">
+    <div class="central_column">
+      <div class="single_content">
+        <p>Playing Cards</p>
+        <p>Punishment cards can only be played at the start of your turn. To do this, first open your punishment card deck, and then click on the punishment card you wish to play. However, you cannot activate punishment cards that are currently in use or their cooldown has not expired, these cards appear faded in the deck. Once you play a punishment card, your turn ends.</p>
+      </div>
+    </div>
+  </section>
+  <section class="guide">
+    <div class="central_column">
+      <div class="single_content">
+        <p>Types of Card</p>
+        <div class="split_content">
+          <div class="single_content"><img src="./images/Nothing.png"></div>
+          <div class="single_content"><p>This card has no effect.</p><p>Duration = 1 turn cycle</p></div>
+        </div>
+        <div class="split_content">
+          <div class="single_content"><img src="./images/Strike.png"></div>
+          <div class="single_content"><p>When activated, the enemy players will only be able to move once per turn.</p><p>Duration = 3 turn cycle</p></div>
+        </div>
+        <div class="split_content">
+          <div class="single_content"><img src="./images/KillerHangover.png"></div>
+          <div class="single_content"><p>This card makes enemy players miss their turn. This card does not end your turn when activated.</p><p>Duration = 2 turn cycle</p></div>
+        </div>
+        <div class="split_content">
+          <div class="single_content"><img src="./images/FreshersFlu.png"></div>
+          <div class="single_content"><p>When activated, this card will infect enemy gang members with fresher's flu. The card will remove all enemy beer and knowledge bonuses.</p><p>Any bonuses gained from the PVC minigame while this card is active, will be removed when it is deactivated.</p><p>Duration = 2 turn cycle</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>

@@ -111,6 +111,7 @@ body {
 #teams .team img{
   display:block;
   margin: 0 auto;
+  max-width: 100%;
 }
 #teams .team p{
   text-transform: uppercase;
@@ -148,11 +149,11 @@ body {
   text-align: justify;
 }
 .guide .title {
-  padding: 10px;
+  padding: 10px 20px;
   margin: 0;
 }
 .guide .single_content {
-  padding: 10px;
+  padding: 10px 20px;
   margin: 0;
 }
 .guide .single_content img {
