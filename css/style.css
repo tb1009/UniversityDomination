@@ -169,3 +169,30 @@ body {
 .guide .split_content .single_content{
   margin: auto;
 }
+
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+  #menu,#about,#teams, .guide .split_content{
+    grid-template-columns: 100%;
+  }
+  .button a {
+    padding: 5px 0;
+  }
+  .central_column{
+    width: 90%;
+  }
+  #main h1 {
+    font-size: 50px;
+    margin-top: 300px;
+  }
+  #main p {
+    font-size: 16px;
+  }
+  #main #logo{
+    float:none;
+  }
+  #about #image img{
+    width: 80%;
+    height: auto;
+  }
+}
